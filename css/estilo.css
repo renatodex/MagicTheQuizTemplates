@@ -1,6 +1,11 @@
 body, html {
     background-image: url('/images/background.jpg');
+    background-attachment: fixed;
     background-position: top;
+    height:101%;
+    font-family: Crimson, Times new Roman, Arial;
+    font-weight: normal;
+    font-style: normal;
 }
 
 .rad5 {
@@ -24,7 +29,7 @@ body, html {
 }
 
 .pergunta {
-    height:35px;
+    font-family: CrimsonItalic, Times new Roman, Arial;
     background-image: url('/images/faixa_background.png');
     color:#fff;
     padding:20px;
@@ -55,12 +60,17 @@ body, html {
     border-top:1px solid #4a574e;
 }
 
+.disabled_text {
+    color:#666 !important;
+}
+
 .alternativas .last {
     border-bottom:0px;
 }
 
 .alternativas a:hover {
     background-color: #262f2c;
+    cursor: pointer;
 }
 
 .navegacao {
@@ -104,4 +114,8 @@ body, html {
 
 .proxima_disabled {
     background-position:149px -50px !important;
+}
+
+.alternativas input {
+    display:none;
 }
