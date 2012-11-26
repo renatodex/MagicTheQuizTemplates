@@ -28,7 +28,7 @@ body, html {
     background-image: url('/images/logo.png');
 }
 
-.pergunta {
+.pergunta, .social {
     font-family: CrimsonItalic, Times new Roman, Arial;
     background-image: url('/images/faixa_background.png');
     color:#fff;
@@ -118,4 +118,58 @@ body, html {
 
 .alternativas input {
     display:none;
+}
+
+.social_plugin {
+    margin-top:10px;
+    margin-bottom:10px;
+}
+
+.social h1, .social h2 {
+    text-align:left;
+}
+
+.social h2 {
+    font-size:25px;
+}
+
+.social_plugin:first-child {
+    margin-right:0px;
+}
+
+.fb-app {
+    background-color:#9AAD9C;
+    -webkit-border-radius: 3px;
+    -moz-border-radius: 3px;
+    border-radius: 3px;  
+    margin-right: 10px;
+}
+
+.fb-like-box {
+    width:240px;
+    float:left;
+}
+
+.fb-facepile {
+    width:300px;
+    float:left;
+    padding:10px;
+}
+
+.fb-comments {
+    padding:10px;
+}
+
+.clearfix {
+    clear:both;
+}
+
+.social {
+    display:none;
+}
+
+h5 {
+    color: #F4BF6E;
+    font-size: 80px;
+    margin: 10px;
 }
